@@ -1,0 +1,66 @@
+# ===============================
+# SYSTEM FILES
+# ===============================
+# OS-specific junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# ===============================
+# PHP / BACKEND
+# ===============================
+# Composer dependencies (if ever added)
+vendor/
+composer.lock
+
+# Environment and local config files
+.env
+config-local.php
+config_dev.php
+
+# Cache and log files
+*.log
+*.tmp
+cache/
+tmp/
+session/
+
+# ===============================
+# FRONTEND
+# ===============================
+# Node modules (in case you later add build tools)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ===============================
+# UPLOADS / MEDIA
+# ===============================
+# Uploaded panorama images, media, or CMS uploads
+uploads/
+media/
+assets/uploads/
+assets/images/temp/
+
+# Keep the folder in Git without its contents
+!uploads/.gitkeep
+!media/.gitkeep
+
+# ===============================
+# OTHER
+# ===============================
+# Backup files
+*.bak
+*.old
+*.swp
+
+# Generated archives
+*.zip
+*.tar.gz
+*.rar
